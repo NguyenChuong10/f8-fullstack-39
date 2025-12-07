@@ -9,7 +9,7 @@ function App() {
 
 
   return (
-    <Router basename={import.meta.env.PROD ? "/f8-fullstack-38" : "/"}>
+    <Router basename={import.meta.env.PROD ? "/f8-fullstack-39" : "/"}>
       <Navigator />
       <Routes>
         <Route path="/deposit" element={<Deposit />}></Route>
